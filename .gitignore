@@ -1,0 +1,36 @@
+# === Altium Designer Junk & Backups ===
+History/
+__Previews/
+*.SchDocPreview
+*.PcbDocPreview
+*.PcbLibPreview
+*.SchLibPreview
+*.Datarad
+*.Zip
+*.Dat
+*.Txt
+*.log
+*.htm
+*.html
+*.drc
+*.REP
+*.OutDir
+*.Annotation
+*.XLS
+*.PDF
+
+# Altium Project / Compilation outputs
+Project\ Outputs\ for*/
+FileBackup/
+*_AutoSave*
+
+# OS / Editor temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Hardware outputs (раскомментировать, если финальные Gerber/PDF будешь пушить руками)
+# !hardware/outputs/*.pdf
+# !hardware/outputs/*.zip
