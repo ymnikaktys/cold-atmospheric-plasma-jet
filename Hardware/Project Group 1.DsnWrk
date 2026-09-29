@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=DBD_plasma.PrjPcb
+[Project2]
+ProjectPath=..\..\..\AltiumLL\AltiumLL.PrjScr
+[Project3]
+ProjectPath=..\..\..\..\Downloads\PC-20-220\PC-20-220.LibPkg
