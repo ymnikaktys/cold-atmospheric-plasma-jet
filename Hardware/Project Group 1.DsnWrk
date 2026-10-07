@@ -5,4 +5,4 @@ ProjectPath=DBD_plasma.PrjPcb
 [Project2]
 ProjectPath=..\..\..\AltiumLL\AltiumLL.PrjScr
 [Project3]
-ProjectPath=..\..\..\..\Downloads\PC-20-220\PC-20-220.LibPkg
+ProjectPath=..\..\..\..\Downloads\MAX253CSA_T\MAX253CSA_T.LibPkg
