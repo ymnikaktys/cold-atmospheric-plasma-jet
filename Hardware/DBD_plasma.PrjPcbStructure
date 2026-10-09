@@ -1,1 +1,6 @@
-﻿Record=TopLevelDocument|FileName=Sheet1.SchDoc|SheetNumber=1
+﻿Record=TopLevelDocument|FileName=01_Power_Input.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01_Power_Input.SchDoc|FileName=02_MCU_Control_UI.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01_Power_Input.SchDoc|FileName=03_ZVS_PushPull.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01_Power_Input.SchDoc|FileName=04_HV_Bus_Sense.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01_Power_Input.SchDoc|FileName=05_SiC_Nanosecond_Stage.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01_Power_Input.SchDoc|FileName=06_Pneumatics.SchDoc|SheetNumber=6
