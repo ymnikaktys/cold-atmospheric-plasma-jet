@@ -102,7 +102,7 @@ extern "C" __declspec(dllexport) void jet_stream(void **opaque, double t, union 
 
     const double T_BLANK_PRE  = 1.0e-6;          // 1 us Pre-shot deadtime
 
-    const double T_PULSE_SIC  = 12.0e-9;         // 12 ns SiC stroke
+    const double T_PULSE_SIC  = 14.0e-9;         // 12 ns SiC stroke
 
     const double T_BLANK_POST = 2.0e-6;          // 2 us Plasma relaxation
 

@@ -445,7 +445,7 @@
       «text (-70,275) 0.5 7 0 0x1000000 -1 -1 "100µ"»
       «text (250,50) 0.5 7 2 0x1000000 -1 -1 "Rser = 0.4"»
       «text (250,0) 0.5 7 2 0x1000000 -1 -1 "Cpar = 2.5p"»
-      «text (-100,-300) 0.5 7 0 0x1000000 -1 -1 "Rpar = 4.7K"»
+      «text (-100,-300) 0.5 7 0 0x1000000 -1 -1 "Rpar = 4K"»
       «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
       «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
     »
@@ -1097,7 +1097,7 @@
   «wire (3500,500) (4600,500) "GND"»
   «text (-2250,2900) 1 7 0 0x1000000 -1 -1 "ï»¿K12 L1 L2 0.999\nK13 L1 L3 0.975\nK23 L2 L3 0.975"»
   «text (-2250,3650) 1 7 0 0x1000000 -1 -1 "ï»¿\n.model CSD18534Q5A VDMOS(Vto=2.2 Rd=8m Rs=2m Cgdmax=350p Cgdmin=30p Cgs=1.1n Cjo=450p Is=1e-12 Rb=4m)\n.model 1.5KE39A D(Is=1e-11 Rs=0.15 Bv=39.2 Ibv=1m)\n.model UF4007 D(Is=10n Rs=0.08 N=1.5 Cjo=15p Bv=1000 Ibv=10Âµ Tt=50n)"»
-  «text (-2250,4000) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 0 500Âµ 0 1n uic"»
+  «text (-2250,4000) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 0 10m 0 1n uic"»
   «text (-2250,4250) 1 7 0 0x1000000 -1 -1 "ï»¿.model SiC_1200 VDMOS(Vto=2.8 Rd=75m Cgs=650p Cgdmax=150p Cgdmin=5p Bv=1200)"»
   «text (2850,1550) 1 7 0 0x1000000 -1 -1 "ï»¿K2 L4 L5 0.98"»
   «text (-2250,4450) 1 7 0 0x1000000 -1 -1 "ï»¿.model DBD_SW SW(Vt=0.5 Vh=0.1 Ron=300 Roff=10G)"»
@@ -1110,5 +1110,6 @@
   «text (-2250,6100) 1 7 0 0x1000000 -1 -1 "ï»¿.meas TRAN V_peak_Csn   MAX V(HV)-V(sic_drain)         FROM=100Âµ TO=105Âµ"»
   «text (-2250,6300) 1 7 0 0x1000000 -1 -1 "ï»¿.meas TRAN VoltSeconds INTEG V(HV, sic_drain) FROM=100.000Âµ TO=100.020Âµ"»
   «text (-2250,6500) 1 7 0 0x1000000 -1 -1 "ï»¿.model ES1J D(IS=2.5e-8 RS=0.18 N=1.85 BV=600 IBV=5e-6 CJO=22p VJ=0.65 M=0.38 TT=35n EG=1.11 XTI=3)"»
+  «text (-2250,6650) 1 7 0 0x1000000 -1 -1 "ï»¿.meas"»
 »
 
