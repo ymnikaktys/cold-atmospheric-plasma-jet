@@ -17,7 +17,6 @@ __Previews/
 *.Annotation
 *.XLS
 *.docx
-*.gitignore
 
 # Altium Project / Compilation outputs
 Project\ Outputs\ for*/
