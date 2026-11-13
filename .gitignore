@@ -29,6 +29,7 @@ Desktop.ini
 .DS_Store
 .vscode/
 .idea/
+**/Debug/
 
 # Hardware outputs (раскомментировать, если финальные Gerber/PDF будешь пушить руками)
 # !hardware/outputs/*.pdf
